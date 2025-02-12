@@ -21,24 +21,41 @@
 
     <!-- CSS path -->
     <link rel="stylesheet" href="style.css" />
+    <style>
+      
+        
+      .boxo{
+        height: 350px;
+        width: 200x;
+      }
+      .equal-img {
+        width: 150px; /* Set your preferred width */
+        height: 150px; /* Set your preferred height */
+        object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the set dimensions */
+      }
+          /* Custom CSS for sky blue text */
+    .text-skyblue {
+      color:black ; /* Sky blue color */
+    }
+    </style>
+    
   </head>
 
   <body>
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
       <main>
-        <h4>To <span> Father/Mother/Brother</span></h4>
-        <h1>Husband & Wife</h1>
-        <p>Will hold a wedding reception in:</p>
-        <!-- Letak sini sbb nk display countdown sini -->
+        <h1>Shubham & Shreya</h1>
+        <p>Will hold a wedding on:</p>
+        <!-- Countdown Timer -->
         <div class="simply-countdown"></div>
         <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">See Invitation</a>
       </main>
     </section>
 
-    <!-- OffCanvas NavBar-->
+    <!-- OffCanvas NavBar -->
     <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
       <div class="container">
-        <a class="navbar-brand" href="#">Zul</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,22 +70,22 @@
               <a class="nav-link" href="#info">Info</a>
               <a class="nav-link" href="#story">Story</a>
               <a class="nav-link" href="#gallery">Gallery</a>
-              <a class="nav-link" href="#rsvp">RSVP</a>
-              <a class="nav-link" href="#gifts">Gifts</a>
+              <!-- <a class="nav-link" href="#rsvp">RSVP</a> -->
+              <!-- <a class="nav-link" href="#gifts">Gifts</a> -->
             </div>
           </div>
         </div>
       </div>
     </nav>
 
-    <!-- Home -->
+    <!-- Home Section -->
     <section id="home" class="home">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
             <h2>Weddings</h2>
-            <h3>Held on November 20, 2023 at Kota Bharu Kelantan</h3>
-            <p>Therefore, with all due respect, we intend to invite you, brothers and sisters, to attend our wedding.</p>
+            <h3>Celebrating Our Love on March 06, 2025, in Lucknow</h3>
+            <p>Therefore, with all due respect, we intend to invite you to attend our wedding.</p>
           </div>
         </div>
 
@@ -76,35 +93,35 @@
           <div class="col-lg-6">
             <div class="row">
               <div class="col-8 text-end">
-                <h3>Husband</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque praesentium aut ipsa perferendis, incidunt soluta?</p>
+                <h3>Shubham</h3>
+                <p>ASIC Engineer 2 at Micron Technologies</p>
                 <p>
-                  Putra from father. Lorem <br />
+                  S/O Mr. Santosh Kumar Mishra <br />
                   & <br />
-                  mother Ipsum
+                  Mrs. Rekha Mishra
                 </p>
               </div>
               <div class="col-4">
-                <img src="img/husband.jpeg" alt="Husband" class="img-responsive rounded-circle" />
+                <img src="img/PRV04560.JPG" alt="Husband" class="img-responsive rounded-circle equal-img" />
               </div>
             </div>
           </div>
 
-          <!-- Icon heart letak sini -->
+          <!-- Heart Icon -->
           <span class="heart"><i class="bi bi-heart-fill"></i></span>
 
           <div class="col-lg-6">
             <div class="row">
               <div class="col-4">
-                <img src="img/wife.png" alt="Wife" class="img-responsive rounded-circle" />
+                <img src="img/PRV03918.JPG" alt="Wife" class="img-responsive rounded-circle equal-img" />
               </div>
               <div class="col-8">
-                <h3>Wife</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque praesentium aut ipsa perferendis, incidunt soluta?</p>
+                <h3>Shreya</h3>
+                <p>SDE 2 at IndiaMart</p>
                 <p>
-                  Putra from father. Ipsum <br />
+                  D/O Dr. Shree Krishna Pandey <br />
                   & <br />
-                  mather Lorem
+                  Mrs. Suman Pandey
                 </p>
               </div>
             </div>
@@ -113,240 +130,258 @@
       </div>
     </section>
 
-    <!-- Info about perkahwinan -->
+    <!-- Info Section -->
     <section id="info" class="info">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
             <h2>Event Information</h2>
             <p class="alamat">
-              Address: Grandara hall depan SK Pendek, PT 1047. <br />
-              PT 1047, Lorong Pengkalan Penambang, 15100 Kota Bharu, Kelantan.
+              Address: Convention Center Block A <br />
+              Indira Nagar, Lucknow, Uttar Pradesh
             </p>
+            <!-- Corrected Google Maps Embed -->
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15870.080961089143!2d102.2205594!3d6.060344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6a5034cdf6dbd%3A0x7c1ff987016ac709!2sGrandara%20Hall%2C%20Kota%20Bharu!5e0!3m2!1sen!2smy!4v1716214390765!5m2!1sen!2smy"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102370777536!2d80.97185!3d26.8755614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfda983b9d26f%3A0xb187847860ae5a2c!2sConvention%20center!5e0!3m2!1sen!2sin!4v169876543210!5m2!1sen!2sin"
               width="100%"
               height="250"
-              style="border: 0"
+              style="border:0;"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-            <a href="https://maps.app.goo.gl/EP3osshD7ytzMAux8" target="_blank" class="btn btn-light btn-sm my-3">Click to open the map</a>
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <!-- <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102370777536!2d80.97185!3d26.8755614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfda983b9d26f%3A0xb187847860ae5a2c!2sConvention%20center!5e0!3m2!1sen!2sin!4v169876543210!5m2!1sen!2sin" target="_blank" class="btn btn-light btn-sm my-3">Click to open the map</a> -->
             <p class="description">
-              It is hoped that the address and date will not be mistaken. If you arrive at your destination but there are no signs of a wedding taking place, it could be that you have the wrong schedule or the wrong place.
+              <br>
+              We eagerly await the honor of your presence at the venue on our wedding day. May you grace the occasion with your warmth and blessings, making our celebration even more special.
             </p>
           </div>
         </div>
 
-        <div class="row justify-content-center mt-4">
+        <div class="row justify-content-center mt-4 infos">
           <div class="col-md-5 col-10">
-            <div class="card text-center text-bg-light mb-5">
-              <div class="card-header">Akad Nikah</div>
-              <div class="card-body">
+            <div class="clr card text-center text-bg-light mb-5">
+              <div class="clr text-skyblue card-header text-skyblue">HALDI</div>
+              <div class="clr text-skyblue card-body">
                 <div class="row justify-content-center">
                   <div class="col-md-6">
-                    <i class="bi bi-clock d-block"></i>
-                    <span>08.00 - 10.00</span>
+                    <i class="bi bi-calendar3 d-block text-skyblue"></i>
+                    <span clr class="text-skyblue">Wednesday, 5 March 2025</span>
                   </div>
                   <div class="col-md-6">
-                    <i class="bi bi-calendar3 d-block"></i>
-                    <span>Saturday, 20 November 2023</span>
+                    <i class="bi bi-geo-alt d-block text-skyblue"></i>
+                    <span class="text-skyblue">Radha Rani Marriage Lawn</span>
                   </div>
                 </div>
               </div>
-              <div class="card-footer">It is hoped that the ceremony will be conducive to maintaining the solemnity and solemnity of the entire procession.</div>
+              <div class="clr card-footer text-skyblue">We deeply respect and wholeheartedly cherish your presence, as it adds warmth, joy, and meaning to our special day.</div>
             </div>
           </div>
-          <div class="col-md-5 col-10">
+          <div class=" col-md-5 col-10 cards">
             <div class="card text-center text-bg-light">
-              <div class="card-header">RECEPTION</div>
-              <div class="card-body">
+              <div class="clr card-header text-skyblue">MEHNDI</div>
+              <div class="clr card-body">
                 <div class="row justify-content-center">
                   <div class="col-md-6">
-                    <i class="bi bi-clock d-block"></i>
-                    <span>11.00 - done</span>
+                    <i class="bi bi-calendar3 d-block text-skyblue"></i>
+                    <span class="text-skyblue">Wednesday, 5 March 2025</span>
                   </div>
                   <div class="col-md-6">
-                    <i class="bi bi-calendar3 d-block"></i>
-                    <span>Sunday, 20 November 2023</span>
+                    <i class="bi bi-geo-alt d-block text-skyblue"></i>
+                    <span class="text-skyblue">Radha Rani Marriage Lawn</span>
                   </div>
                 </div>
               </div>
-              <div class="card-footer">It is hoped that the ceremony will be conducive to maintaining the solemnity and solemnity of the entire procession.</div>
+              <div class="clr card-footer text-skyblue">We deeply respect and wholeheartedly cherish your presence, as it adds warmth, joy, and meaning to our special day</div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10 wedding">
+            <div class="card text-center text-bg-light">
+              <div class="clr card-header text-skyblue">WEDDING</div>
+              <div class="clr card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block text-skyblue"></i>
+                    <span class="text-skyblue">Wednesday, 6 March 2025</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-geo-alt d-block text-skyblue"></i>
+                    <span class="text-skyblue">Convention Center Block-A, Lucknow</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clr card-footer text-skyblue">We deeply respect and wholeheartedly cherish your presence, as it adds warmth, joy, and meaning to our special day</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Info -->
 
-    <!-- Story section -->
-    <section id="story" class="story">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-10 text-center">
-            <span>How Our Love Bloomed</span>
-            <h2>Our Story</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, similique non soluta nulla asperiores voluptatem.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image" style="background-image: url(https://picsum.photos/302/302)"></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>First meeting</h3>
-                    <span>1 Juni 2000</span>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi autem? Commodi autem quo quia?</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300)"></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>Get serious</h3>
-                    <span>1 Januari 2005</span>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto enim eaque obcaecati odit itaque explicabo quisquam quos at.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image" style="background-image: url(https://picsum.photos/301/301)"></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>Fiance</h3>
-                    <span>7 November 2009</span>
-                  </div>
-                  <div class="timeline-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, deleniti distinctio. Esse quas sit explicabo corporis magni qui expedita a.</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+<!-- Story Section -->
+<section id="story" class="story">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-10 text-center">
+        <span>How Our Love Bloomed</span>
+        <h2>Our Story</h2>
+        <p>Every love story is beautiful, but ours is our favorite. It’s a journey filled with laughter, memories, and endless love, leading us to this special moment.</p>
       </div>
-    </section>
-    <!-- Story section End -->
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image" style="background-image: url(img/fmeet.jpeg)"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>First Meeting</h3>
+                <span>06 October 2025</span>
+              </div>
+              <div class="timeline-body">
+                <p>It all began on a beautiful day when fate brought us together. A simple encounter turned into countless conversations, laughter, and a bond that felt meant to be.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image" style="background-image: url(img/flove.jpeg)"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Falling in Love</h3>
+                <span>November 2025</span>
+              </div>
+              <div class="timeline-body">
+                <p>As time passed, our connection deepened. From sharing dreams to supporting each other through life's ups and downs, our love grew stronger, and we knew we had found something truly special.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image" style="background-image: url(img/PRV04341.JPG)"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Engaged</h3>
+                <span>7 December 2025</span>
+              </div>
+              <div class="timeline-body">
+                <p>With hearts full of love and excitement for the journey ahead, we embrace this new chapter together—cherishing every moment, growing side by side, and creating memories that will last a lifetime. Here's to love, laughter, and a beautiful future ahead!</p>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Gallery Section -->
     <section id="gallery" class="gallery">
-      <!-- Container to hold the gallery content -->
       <div class="container">
-        <!-- Row for the gallery title and description, centered in the middle -->
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
-            <!-- Subtitle and heading for the gallery -->
             <span>Our Memories</span>
             <h2>Gallery</h2>
-            <!-- Description text under the heading -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, itaque?</p>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, itaque?</p> -->
           </div>
         </div>
 
-        <!-- Row for the gallery images, with responsive column classes -->
-        <!-- The column classes control how many images are displayed per row based on screen size -->
         <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
-          <!-- Individual gallery item, repeated for each image -->
           <div class="col mt-3">
-            <!-- Anchor tag for lightbox effect, linking to a larger version of the image -->
-            <a href="https://picsum.photos/id/300/1200/768" data-toggle="lightbox" data-caption="1" data-gallery="mygallery">
-              <!-- Image thumbnail, set to be fluid, full width, and rounded -->
-              <img src="https://picsum.photos/id/300/300/400" alt="1" class="img-fluid w-100 rounded" />
-            </a>
-          </div>
-
-          <!-- Repeat for each gallery item, changing the image source, caption, and lightbox attributes -->
-          <div class="col mt-3">
-            <a href="https://picsum.photos/id/300/1200/768" data-toggle="lightbox" data-caption="2" data-gallery="mygallery">
-              <img src="https://picsum.photos/id/300/300/400" alt="2" class="img-fluid w-100 rounded" />
+            <a href="img/kashmir.jpeg" data-toggle="lightbox" data-caption="1" data-gallery="mygallery">
+              <img src="img/kashmir.jpeg" alt="1" class="img-fluid w-100 rounded boxo" />
             </a>
           </div>
           <div class="col mt-3">
-            <a href="https://picsum.photos/id/301/1200/768" data-toggle="lightbox" data-caption="3" data-gallery="mygallery">
-              <img src="https://picsum.photos/id/301/300/400" alt="3" class="img-fluid w-100 rounded" />
+            <a href="img/ssolo.jpeg" data-toggle="lightbox" data-caption="1" data-gallery="mygallery">
+              <img src="img/ssolo.jpeg" alt="1" class="img-fluid w-100 rounded boxo" />
             </a>
           </div>
           <div class="col mt-3">
-            <a href="https://picsum.photos/id/302/1200/768" data-toggle="lightbox" data-caption="4" data-gallery="mygallery">
-              <img src="https://picsum.photos/id/302/300/400" alt="4" class="img-fluid w-100 rounded" />
+            <a href="img/bhabhisolo.jpeg" data-toggle="lightbox" data-caption="2" data-gallery="mygallery">
+              <img src="img/bhabhisolo.jpeg" alt="2" class="img-fluid w-100 rounded boxo" />
             </a>
           </div>
           <div class="col mt-3">
-            <a href="https://picsum.photos/id/304/1200/768" data-toggle="lightbox" data-caption="5" data-gallery="mygallery">
-              <img src="https://picsum.photos/id/304/300/400" alt="5" class="img-fluid w-100 rounded" />
+            <a href="img/UPL/PRV03940.JPG" data-toggle="lightbox" data-caption="5" data-gallery="mygallery">
+              <img src="img/UPL/PRV03940.JPG" alt="5" class="img-fluid w-100 rounded boxo" />
             </a>
           </div>
           <div class="col mt-3">
-            <a href="https://picsum.photos/id/305/1200/768" data-toggle="lightbox" data-caption="6" data-gallery="mygallery">
-              <img src="https://picsum.photos/id/305/300/400" alt="6" class="img-fluid w-100 rounded" />
+            <a href="img/UPL/PRV04296.JPG" data-toggle="lightbox" data-caption="3" data-gallery="mygallery">
+              <img src="img/UPL/PRV04296.JPG" alt="3" class="img-fluid w-100 rounded boxo" />
             </a>
           </div>
-        </div>
+          <div class="col mt-3 ">
+            <a href="img/UPL/PRV04320.JPG" data-toggle="lightbox" data-caption="4" data-gallery="mygallery">
+              <img src="img/UPL/PRV04320.JPG" alt="4" class="img-fluid w-100 rounded boxo" />
+            </a>
+          </div>
+          <div class="col mt-3 ">
+            <a href="img/UPL/PRV04497.JPG" data-toggle="lightbox" data-caption="5" data-gallery="mygallery">
+              <img src="img/UPL/PRV04497.JPG" alt="5" class="img-fluid w-100 rounded boxo" />
+            </a>
+          </div>
+          <!-- <div class="col mt-3 ">
+            <a href="img/UPL/PRV04536.JPG" data-toggle="lightbox" data-caption="5" data-gallery="mygallery">
+              <img src="img/UPL/PRV04536.JPG" alt="5" class="img-fluid w-100 rounded boxo" />
+            </a>
+        
+      
+        </div> -->
       </div>
     </section>
-    <!-- Gallery Section End -->
 
-    <!-- Attendance form section -->
-    <section id="rsvp" class="rsvp">
-      <div class="container">
+    <!-- RSVP Section --
+      <div class="container text-skyblue">
         <div class="row justify-content-center">
-          <!-- Column for the title and description of the form -->
-          <div class="col-md-8 col-10 text-center">
+          <div class="col-md-8 col-10 text-center text-skyblue">
             <h2>Confirmation of Attendance</h2>
             <p>Fill out the form below to confirm attendance.</p>
           </div>
         </div>
 
-        <!-- Form for attendance confirmation -->
-        <!-- The form uses POST method to send data to a Google Script URL -->
-        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" action="https://script.google.com/macros/s/AKfycbxccgG4ZLJLrIbxq-0r62c_cWDBEIWxwRkNIO3DHLKWkvXyj9ms_ShaBV1cEnOkpZIE/exec" id="my-form">
-          <!-- Input field for Name -->
+        <style>
+          .text-skyblue {
+            color: black !important; /* Sky blue color */
+          }
+        </style>
+        
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center text-skyblue" 
+              method="POST" 
+              action=""
+              id="my-form">
+        
           <div class="col-12">
             <div class="mb-3">
-              <label for="nama" class="form-label">Name</label>
-              <input type="text" class="form-control" id="nama" name="nama" />
+              <label for="nama" class="form-label text-skyblue">Name</label>
+              <input type="text" class="form-control text-skyblue" id="nama" name="nama" />
             </div>
           </div>
-
-          <!-- Input field for Total (number of attendees) -->
+        
           <div class="col-12">
             <div class="mb-3">
-              <label for="jumlah" class="form-label">Total</label>
-              <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1" />
+              <label for="jumlah" class="form-label text-skyblue">Total</label>
+              <input type="number" class="form-control text-skyblue" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1" />
             </div>
           </div>
-
-          <!-- Dropdown for confirming attendance status -->
+        
           <div class="col-12">
             <div class="mb-3">
-              <label for="status" class="form-label">Confirm</label>
-              <select name="status" id="status" class="form-select">
-                <option selected>Choose</option>
-                <option value="Hadir">Attend</option>
-                <option value="Tidak Hadir">Absent</option>
+              <label for="status" class="form-label text-skyblue">Confirm</label>
+              <select name="status" id="status" class="form-select text-skyblue">
+                <option selected class="text-skyblue">Choose</option>
+                <option value="Hadir" class="text-skyblue">Attend</option>
+                <option value="Tidak Hadir" class="text-skyblue">Absent</option>
               </select>
             </div>
           </div>
-
-          <!-- Submit button to send the form data -->
-          <div class="col-12" style="margin-top: 35px">
-            <button class="btn btn-primary">Send</button>
-          </div>
-        </form>
+        
+          
       </div>
     </section>
-    <!-- Attendance form end -->
 
-    <!-- Gift -->
-    <section id="gifts" class="gifts">
+    <!-- Gifts Section -->
+    <!-- <section id="gifts" class="gifts">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
@@ -371,45 +406,41 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- Gift End -->
+    </section> -->
 
     <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <small class="block">&copy; 2023 Zul Wedding. All Rights Reserved.</small>
-            <small class="block">Design by <a href="https://instagram.com/zlhsny._" target="_blank">@zulhusni</a>.</small>
+            <small class="block">&copy; 2025 Shubham Wedding. All Rights Reserved.</small>
+            <small class="block">Design by <a href="https://www.linkedin.com/in/ujjwal-mishra-503a44288/" target="_blank">@UJJWAL MISHRA</a>.</small>
 
             <ul class="mt-3">
               <li>
-                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.instagram.com/ujjw_a.l/"><i class="bi bi-instagram"></i></a>
               </li>
               <li>
-                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/ujjwal-mishra-503a44288/"><i class="bi bi-linkedin"></i></a>
               </li>
               <li>
-                <a href="#"><i class="bi bi-twitter"></i></a>
+                <!-- <a href="#"><i class="bi bi-twitter"></i></a> -->
               </li>
               <li>
-                <a href="#"><i class="bi bi-facebook"></i></a>
+                <!-- <a href="#"><i class="bi bi-facebook"></i></a> -->
               </li>
               <li>
-                <a href="#"><i class="bi bi-tiktok"></i></a>
+                <!-- <a href="#"><i class="bi bi-tiktok"></i></a> -->
               </li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
-    <!-- Footer End -->
-
-    <!-- Audio Section -->
     <div id="audio-container">
       <!-- Audio element that automatically plays and loops the specified audio file -->
       <audio id="song" autoplay loop>
-        <source src="audio/be-mine.mp3" type="audio/mp3" />
+        <source src="img/music.mp3" type="audio/mp3" />
       </audio>
 
       <!-- Wrapper for the audio icon, initially hidden (display: none) -->
@@ -428,9 +459,9 @@
     <!-- Countdown tu set random sahaja -->
     <script>
       simplyCountdown(".simply-countdown", {
-        year: 2024, // required
-        month: 9, // required
-        day: 25, // required
+        year: 2025, // required
+        month: 3, // required
+        day: 6, // required
         hours: 0, // Default is 0 [0-23] integer
         words: {
           //words displayed into the countdown
@@ -556,3 +587,6 @@
     </script>
   </body>
 </html>
+     
+  
+      
