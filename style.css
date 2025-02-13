@@ -6,6 +6,14 @@
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
+body {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+body.loaded {
+  opacity: 1;
+}
+
 
 body {
   font-size: 1.2rem;

@@ -504,6 +504,12 @@
       disableScroll(); // Initially disable scrolling
       
     </script>
+    <script>
+      window.addEventListener('load', () => {
+        document.body.classList.add('loaded');
+      });
+      </script>
+      
      <script>
       // Optional: Add orientation change listener for better handling
       window.addEventListener("orientationchange", function() {
