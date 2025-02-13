@@ -20,7 +20,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  /* overflow: ; */
   background-image: url(img/bg-preview2.jpg);
   background-size: cover;
   background-position: center;
